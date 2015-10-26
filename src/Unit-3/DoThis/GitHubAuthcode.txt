@@ -1,0 +1,5 @@
+﻿65a550711ae48ded48194dd225b2dcdd8dd62198
+
+https://github.com/petabridge/akka-bootcamp
+https://github.com/Aaronontheweb/mvc-utilities
+https://github.com/harleyroadking/akka-bootcamp

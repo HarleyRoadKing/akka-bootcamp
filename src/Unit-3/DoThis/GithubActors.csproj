@@ -61,10 +61,10 @@
     <Compile Include="Actors\GithubCommanderActor.cs" />
     <Compile Include="Actors\GithubCoordinatorActor.cs" />
     <Compile Include="Actors\RepoResultsActor.cs" />
-    <Compile Include="GithubAuth.cs">
+    <Compile Include="Forms\GithubAuth.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="GithubAuth.Designer.cs">
+    <Compile Include="Forms\GithubAuth.Designer.cs">
       <DependentUpon>GithubAuth.cs</DependentUpon>
     </Compile>
     <Compile Include="GithubProgressStats.cs" />
@@ -73,24 +73,24 @@
     <Compile Include="Actors\MainFormActor.cs" />
     <Compile Include="Messages.cs" />
     <Compile Include="GithubClientFactory.cs" />
-    <Compile Include="LauncherForm.cs">
+    <Compile Include="Forms\LauncherForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="LauncherForm.Designer.cs">
+    <Compile Include="Forms\LauncherForm.Designer.cs">
       <DependentUpon>LauncherForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RepoResultsForm.cs">
+    <Compile Include="Forms\RepoResultsForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="RepoResultsForm.Designer.cs">
+    <Compile Include="Forms\RepoResultsForm.Designer.cs">
       <DependentUpon>RepoResultsForm.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="GithubAuth.resx">
+    <EmbeddedResource Include="Forms\GithubAuth.resx">
       <DependentUpon>GithubAuth.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="LauncherForm.resx">
+    <EmbeddedResource Include="Forms\LauncherForm.resx">
       <DependentUpon>LauncherForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -102,7 +102,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="RepoResultsForm.resx">
+    <EmbeddedResource Include="Forms\RepoResultsForm.resx">
       <DependentUpon>RepoResultsForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
@@ -118,6 +118,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="GitHubAuthcode.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
